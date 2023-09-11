@@ -174,9 +174,8 @@ img{
 @media (max-width:600px){
     .top-1{
         position: fixed;
-        padding: 3px;
-        height: 8vh;
-        width: 100vw;
+        height: 10vh;
+        width: 100%;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
         background-color: rgba(255, 255, 255, 0.75);
@@ -186,12 +185,13 @@ img{
     }
     .navbar{
         position: relative;
-        padding: 8px;
+        padding: 10px;
         display: flex;
         flex-direction: row;
+        
         }
     .empty{
-            flex: 1;
+            flex: 2;
         }
     .logo{
         flex: 1;
@@ -206,13 +206,17 @@ img{
     }
     .social{
         height: 30px;
-        width: 8%;
+        width: 80px;
         display: flex;
         flex-direction: row;
-        gap: 2px;
+        gap: 5px;
     
     }
-   
+    img{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
     .animation_scroll{
         opacity: 0;
         bottom: -40px;
@@ -267,24 +271,24 @@ img{
         border: 1px solid rgba(209, 213, 219, 0.3);
     }
     #h2{
-        font-size: 20px;
-        padding: 10px;
+        font-size: 15px;
+        padding: 5px;
         color: dimgrey;
         font-family: 'Playfair Display', serif;
     }
     .resp{
-        font-size: 20px;
+        font-size: 10px;
         color: #457b9d;
         font-family: 'Playfair Display', serif;
-        padding: 10px;
+        padding: 15px;
         
     
     }
     .respon{
-        font-size: 12px;
+        font-size: 6px;
         color: black;
         font-family: 'Playfair Display', serif;
-        padding: 10px;
+        padding: 15px;
        
     
     }
@@ -334,6 +338,4 @@ img{
         bottom: 0px;
     }
 }
-
-
 
