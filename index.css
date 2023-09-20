@@ -81,28 +81,28 @@ img{
     @keyframes waves{
         0%{
           border-radius:50%;
-          border-width: 2px;
+          border-width: 1px;
           border-style: solid;
 
         }
         25%{
           border-radius: 80% 50% 60% 55%;
-          border-width: 2px;
+          border-width: 1px;
           border-style: solid;
         }
         50%{
         border-radius:55% 80% 66% 54%;
-        border-width: 2px;
+        border-width: 1px;
         border-style: solid;
         }
         75%{
         border-radius:50% 60% 46% 67%;
-        border-width: 2px;
+        border-width: 1px;
         border-style: solid;
         }
         100%{
         border-radius: 60% 50% 42% 52%;
-        border-width: 2px;
+        border-width: 1px;
         border-style: solid;
         }
       }
