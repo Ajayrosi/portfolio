@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    scroll-snap-type: none;
 }
 .portfolio{
     
@@ -10,15 +10,13 @@
 .top-1{
     position: fixed;
     padding: 10px;
-    margin: 10px;
     height: 10vh;
-    width: 95vw;
-    backdrop-filter: blur(5px) saturate(180%);
+    width: 100vw;
+    backdrop-filter: blur(20px) ;
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);
-    z-index:1;
     
 }
 .navbar{
@@ -67,15 +65,55 @@ img{
     height: 100vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
+    
+ justify-content: center;
     align-items: center;
+    gap: 50px;
     background-color: #a8dadc;
-}   
+} 
+.wavy{
+    height: 200px;
+    width: 200px;
+    outline: none;
+    animation: animate 5s infinite;
+}  
+
+    @keyframes animate{
+        0%{
+          border-radius:50%;
+          border-width: 2px;
+          border-style: solid;
+
+        }
+        25%{
+          border-radius: 80% 50% 60% 55%;
+          border-width: 2px;
+          border-style: solid;
+        }
+        50%{
+        border-radius:55% 80% 66% 54%;
+        border-width: 2px;
+        border-style: solid;
+        }
+        75%{
+        border-radius:50% 60% 46% 67%;
+        border-width: 2px;
+        border-style: solid;
+        }
+        100%{
+        border-radius: 60% 50% 42% 52%;
+        border-width: 2px;
+        border-style: solid;
+        }
+      }
+    
+
 .h1{
     position: relative;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 70px;
     letter-spacing: 1.5px;
+    z-index: 10;
     
 }
 .p{
@@ -100,11 +138,12 @@ img{
 .sec-2{
     height: 80vh;
     width: 70vw;
-     backdrop-filter: blur(10px) saturate(180%);
+     backdrop-filter: blur(5px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);
+    z-index: 10;
 }
 #h2{
     font-size: 35px;
@@ -139,7 +178,7 @@ img{
 .sec-3{
     height: 80vh;
     width: 70vw;
-     backdrop-filter: blur(10px) saturate(180%);
+     backdrop-filter: blur(2px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 12px;
@@ -176,9 +215,9 @@ img{
 @media (max-width:600px){
     .top-1{
         position: fixed;
-        height: 7vh;
-        width: 90vw;
-        backdrop-filter: blur(5px) saturate(180%);
+        height: 10vh;
+        width: 100%;
+        backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
         background-color: rgba(255, 255, 255, 0.75);
         border-radius: 12px;
@@ -219,6 +258,7 @@ img{
         width: 30px;
         border-radius: 50%;
     }
+    
     .animation_scroll{
         opacity: 0;
         bottom: -40px;
@@ -233,10 +273,16 @@ img{
         height: 100vh;
         width: 100vw;
         display: flex;
+        flex-direction: column-reverse;
+        gap: 35px;
         justify-content: center;
         align-items: center;
-        background-color: #a8dadc;
+        background-color: white;
     }   
+    .wavy{
+        height: 250px;
+        width: 250px;
+    }
     .h1{
         position: relative;
         font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -249,11 +295,7 @@ img{
         font-size: 10px;
         
     }   
-    .show{
-        opacity: 1;
-        bottom: 0px;
     
-    }
     .sli-2{
         height: 100vh;
         width: 100vw;
@@ -264,22 +306,22 @@ img{
         
     }
     .sec-2{
-        height: 70vh;
+        height: 80vh;
         width: 70vw;
-         backdrop-filter: blur(10px) saturate(180%);
+         backdrop-filter: blur(5px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
         background-color: rgba(255, 255, 255, 0.75);
         border-radius: 12px;
         border: 1px solid rgba(209, 213, 219, 0.3);
     }
     #h2{
-        font-size: 20px;
+        font-size: 15px;
         padding: 5px;
         color: dimgrey;
         font-family: 'Playfair Display', serif;
     }
     .resp{
-        font-size: 16px;
+        font-size: 10px;
         color: #457b9d;
         font-family: 'Playfair Display', serif;
         padding: 15px;
@@ -287,7 +329,7 @@ img{
     
     }
     .respon{
-        font-size: 10px;
+        font-size: 6px;
         color: black;
         font-family: 'Playfair Display', serif;
         padding: 15px;
@@ -305,7 +347,7 @@ img{
     .sec-3{
         height: 80vh;
         width: 70vw;
-         backdrop-filter: blur(10px) saturate(180%);
+         backdrop-filter: blur(2px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
         background-color: rgba(255, 255, 255, 0.75);
         border-radius: 12px;
