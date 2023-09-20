@@ -75,10 +75,10 @@ img{
     height: 200px;
     width: 200px;
     outline: none;
-    animation: animate 5s infinite;
+    animation: waves 5s infinite;
 }  
 
-    @keyframes animate{
+    @keyframes waves{
         0%{
           border-radius:50%;
           border-width: 2px;
