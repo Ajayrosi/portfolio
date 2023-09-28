@@ -10,7 +10,7 @@
 .top-1{
     position: fixed;
     padding: 10px;
-    height: 10vh;
+    height: 8vh;
     width: 100vw;
     backdrop-filter: blur(20px) ;
     -webkit-backdrop-filter: blur(16px) saturate(180%);
