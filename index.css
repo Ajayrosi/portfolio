@@ -11,7 +11,7 @@
     position: fixed;
     padding: 10px;
     height: 8vh;
-    width: 100vw;
+    width: 100%;
     backdrop-filter: blur(20px) ;
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(255, 255, 255, 0.75);
@@ -46,7 +46,7 @@
     gap: 20px;
 
 }
-img{
+.git{
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -65,45 +65,47 @@ img{
     height: 100vh;
     width: 100vw;
     display: flex;
-    
- justify-content: center;
+    justify-content: center;
     align-items: center;
     gap: 50px;
-    background-color: #a8dadc;
+    background-color:#4400ff48;
 } 
 .wavy{
     height: 200px;
     width: 200px;
-    outline: none;
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
     animation: waves 5s infinite;
 }  
 
     @keyframes waves{
         0%{
           border-radius:50%;
-          border-width: 1px;
-          border-style: solid;
+          
+         
 
         }
         25%{
           border-radius: 30% 70% 70% 30% / 30% 38% 62% 70% ;
-          border-width: 1px;
-          border-style: solid;
+          
+         
         }
         50%{
         border-radius:64% 36% 46% 54% / 47% 65% 35% 53% ;
-        border-width: 1px;
-        border-style: solid;
+       
+       
         }
         75%{
         border-radius:42% 58% 89% 11% / 56% 61% 39% 44% ;
-        border-width: 1px;
-        border-style: solid;
+        
+        
         }
         100%{
         border-radius:30% 70% 54% 46% / 64% 34% 66% 36% ;
-        border-width: 1px;
-        border-style: solid;
+        
+        
         }
       }
     
@@ -117,12 +119,79 @@ img{
     
 }
 .p{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sansf-seri;
     font-size: 20px;
     
-}   
-
-
+} 
+.section{
+    height: 100vh;
+    width: 100%;
+    background-color: #4400ff5a;
+    display: flex;
+    flex-direction: column;
+} 
+.container{
+    padding: 10px;
+}
+.skills{
+    height: 70vh;
+    width: 100%;
+   
+} 
+.subscribe{
+    height: 30vh;
+    width: 100%;
+}
+#skillhead{
+    display: flex;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    padding: 10px 0 10px 10px;
+}
+.cards{
+    display: flex;
+    flex-direction: row ;
+    gap: 60px;
+   
+}
+.card-1{
+    height: 200px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.htmlim{
+    z-index: 0;
+}
+.htmlimg{
+    position: relative;
+    height: 60%;
+    width: 100%;
+    border-radius: .5rem;
+   
+}
+.text1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.card-v{
+    height: 200px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+#versionhead{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    padding: 10px 0 10px 10px;
+}
 .animation_on_scroll{
     opacity: 0;
     bottom: -80px;
