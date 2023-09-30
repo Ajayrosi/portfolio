@@ -307,10 +307,11 @@
     }
     .cards{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         
     }
     .card-1{
