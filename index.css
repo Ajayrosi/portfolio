@@ -131,14 +131,20 @@
     flex-direction: column;
 } 
 .container{
+    position: relative;
+    height: 100%;
+    width: 100%;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
 }
 .skills{
-     width: 100%;
+    width: 70%;
    
 } 
 .subscribe{
-    width: 100%;
+    width: 30%;
+    border: 1px solid white;
 }
 #skillhead{
     display: flex;
@@ -150,7 +156,7 @@
 .cards{
     display: flex;
     flex-direction: row ;
-    gap: 60px;
+    gap: 10px;
    
 }
 .card-1{
@@ -305,6 +311,7 @@
     .skills{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .cards{
         display: flex;
@@ -361,6 +368,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .subscribe{
+        display: none;
     }
 
 }
@@ -463,6 +473,7 @@
     .skills{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .cards{
         display: flex;
@@ -514,6 +525,11 @@
         justify-content: center;
         align-items: center;
     }
+
+    .subscribe{
+        display: none;
+    }
+
 
 }
 
