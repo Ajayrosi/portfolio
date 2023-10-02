@@ -143,7 +143,7 @@
    
 } 
 .subscribe{
-    width: 30%;
+    width: 25%;
     border: 1px solid white;
 }
 #skillhead{
@@ -161,7 +161,7 @@
 }
 .card-1{
     height: 200px;
-    width: 300px;
+    width: 250px;
     border: 1px solid white;
     border-radius: .5rem;
     overflow: hidden;
