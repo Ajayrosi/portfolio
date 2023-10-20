@@ -165,6 +165,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .skillcards{
     width: 70%;
@@ -172,7 +173,8 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    transform: translateY(-40px);
+    transform: translateY(-30px);
+    
 }
 .crd{
     height: 400px;
@@ -191,6 +193,33 @@
     height: 90%;
     width: 80%;
     
+}
+.projects{
+    height: 115vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "spo spo-1"
+        "spo-2 spo-3"
+    ;
+}
+.spotify{
+    grid-area: spo;
+    border: 1px white solid;
+}
+.spo-des{
+    grid-area: spo-1;
+    border: 1px white solid;
+}
+.nextpro{
+    grid-area: spo-2;
+    border: 1px white solid;
+}
+.nextdes{
+    grid-area: spo-3;
+    border: 1px white solid;
 }
 
 @media(min-width:377px) and (max-width:600px){
