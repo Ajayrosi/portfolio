@@ -622,7 +622,7 @@
         width: 100%;
         display: grid;
         grid-template-columns: 1fr ;
-        grid-template-rows: 1fr .7fr 1fr .7fr;
+        grid-template-rows: 1.4fr .7fr 1.4fr .7fr;
         grid-template-areas: 
             "spo"
             "spo-1"
