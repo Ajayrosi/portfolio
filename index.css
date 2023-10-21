@@ -207,7 +207,7 @@
 }
 .spotify{
     grid-area: spo;
-    border: 1px white solid;
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,7 +220,7 @@
 }
 .spo-des{
     grid-area: spo-1;
-    border: 1px white solid;
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,14 +245,14 @@
 }
 .nextpro{
     grid-area: spo-2;
-    border: 1px white solid;
+    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .nextdes{
     grid-area: spo-3;
-    border: 1px white solid;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -267,7 +267,7 @@
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background: linear-gradient(45deg,rgb(194, 230, 240),rgb(144, 227, 230));
+    background: linear-gradient(45deg,rgb(253, 253, 253),rgb(240, 254, 255));
     animation: blink 1s linear infinite;
 }
 .load-el:nth-child(1){
@@ -423,7 +423,7 @@
     }
     .spotify{
         grid-area: spo;
-        border: 1px white solid;
+        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -436,7 +436,7 @@
     }
     .spo-des{
         grid-area: spo-1;
-        border: 1px white solid;
+        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -461,11 +461,11 @@
     }
     .nextpro{
         grid-area: spo-2;
-        border: 1px white solid;
+       
     }
     .nextdes{
         grid-area: spo-3;
-        border: 1px white solid;
+     
     }
     .skillsets{
         width: 100%;
