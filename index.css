@@ -411,7 +411,7 @@
         font-size: 20px;
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
-        color: azure;
+        color: rgb(57, 60, 60);
     }
     .projects{
         height: 115vh;
@@ -622,7 +622,7 @@
         font-size: 18px;
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
-        color: azure;
+        color: rgb(64, 67, 67);
     }
     .projects{
         height: 115vh;
