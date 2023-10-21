@@ -632,7 +632,7 @@
     }
     .spotify{
         grid-area: spo;
-        border: 1px white solid;
+      
         display: flex;
         justify-content: center;
         align-items: center;
@@ -645,7 +645,7 @@
     }
     .spo-des{
         grid-area: spo-1;
-        border: 1px white solid;
+        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -670,11 +670,11 @@
     }
     .nextpro{
         grid-area: spo-2;
-        border: 1px white solid;
+       
     }
     .nextdes{
         grid-area: spo-3;
-        border: 1px white solid;
+      
     }
     .skillsets{
         width: 100%;
