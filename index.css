@@ -188,6 +188,9 @@
     box-shadow: 1px 1px 10px rgb(252, 248, 248);
 
 }
+.card :hover{
+    transform: translateZ(45px);
+}
 .crd-padd{
     position: relative;
     height: 90%;
@@ -393,7 +396,9 @@
     .shower{
         height: 30vh;
         width: 100%;
-        background: linear-gradient(45deg,rgb(137, 137, 231),rgb(250, 249, 249));
+        background-image: url(zoho.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -602,7 +607,9 @@
     .shower{
         height: 25vh;
         width: 100%;
-        background: linear-gradient(45deg,rgb(137, 137, 231),rgb(250, 249, 249));
+        background-image: url(zoho.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
