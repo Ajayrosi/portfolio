@@ -208,18 +208,90 @@
 .spotify{
     grid-area: spo;
     border: 1px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gif{
+    position: relative;
+    height: 80%;
+    width: 90%;
+    box-shadow: 1px 2px 10px white;
 }
 .spo-des{
     grid-area: spo-1;
     border: 1px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    height: 60%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.anchor{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+.des-pa{
+    font-size: 18px;
+    letter-spacing: 1.5px;
 }
 .nextpro{
     grid-area: spo-2;
     border: 1px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nextdes{
     grid-area: spo-3;
     border: 1px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    gap: 10px;
+}
+.load-el{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: linear-gradient(45deg,rgb(194, 230, 240),rgb(144, 227, 230));
+    animation: blink 1s linear infinite;
+}
+.load-el:nth-child(1){
+    animation-delay: 1s;
+}
+.load-el:nth-child(2){
+    animation-delay: .7s;
+}
+.load-el:nth-child(3){
+    animation-delay: .5s;
+}
+.load-el:nth-child(4){
+    animation-delay: .3s;
+}
+@keyframes blink{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0); 
+    }
+    100%{
+        transform: scale(1); 
+    }
 }
 
 @media(min-width:377px) and (max-width:600px){
@@ -336,7 +408,99 @@
         font-weight: 300;
         color: azure;
     }
+    .projects{
+        height: 115vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr .7fr 1fr .7fr;
+        grid-template-areas: 
+            "spo"
+            "spo-1"
+            "spo-2"
+            "spo-3"
+        ;
+    }
+    .spotify{
+        grid-area: spo;
+        border: 1px white solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #gif{
+        position: relative;
+        height: 80%;
+        width: 90%;
+        box-shadow: 1px 2px 10px white;
+    }
+    .spo-des{
+        grid-area: spo-1;
+        border: 1px white solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .description{
+        height: 85%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        
+    }
+    .anchor{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+    }
+    .des-pa{
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .nextpro{
+        grid-area: spo-2;
+        border: 1px white solid;
+    }
+    .nextdes{
+        grid-area: spo-3;
+        border: 1px white solid;
+    }
+    .skillsets{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .skillcards{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        transform: translateY(-30px);
+        
+    }
+    .crd{
+        height: 180px;
+        width: 160px;
+        border: 1px white solid;
+        border-radius: 10px;
+        background-color: rgb(255, 254, 254);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 1px 1px 10px rgb(252, 248, 248);
     
+    }
+    .crd-padd{
+        position: relative;
+        height: 90%;
+        width: 80%;
+        
+    }
 
 }
 @media  (min-width:100px) and (max-width:376px){
