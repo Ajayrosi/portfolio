@@ -69,14 +69,12 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-   background-color: rgb(255, 254, 254);
+    background:linear-gradient(45deg,rgb(218, 245, 245) 20%,rgb(254, 235, 235)50%)
 } 
 .wavy{
     height: 200px;
     width: 200px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: white;
+    border-width: 1px transparent solid;
     animation: waves 5s infinite;
 }  
 
@@ -165,6 +163,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background:linear-gradient(45deg,rgb(218, 245, 245) 20%,rgb(254, 235, 235)50%)
     
 }
 .skillcards{
@@ -207,6 +206,7 @@
         "spo spo-1"
         "spo-2 spo-3"
     ;
+    background:linear-gradient(45deg,rgb(218, 245, 245) 20%,rgb(254, 235, 235)50%)
 }
 .spotify{
     grid-area: spo;
@@ -260,7 +260,7 @@
     justify-content: center;
     align-items: center;
 }
-.loader{
+/*.loader{
     height: 30%;
     width: 30%;
     display: flex;
@@ -295,7 +295,7 @@
     100%{
         transform: scale(1); 
     }
-}
+} */
 
 @media(min-width:377px) and (max-width:600px){
     .top-1{
