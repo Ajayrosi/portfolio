@@ -273,7 +273,7 @@ legend{
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
         "spo spo-1"
-        "spo-2 spo-3"
+        "spo-3 spo-2"
         "you youde"
     ;
     background:linear-gradient(45deg,rgb(218, 245, 245) 20%,rgb(254, 235, 235)50%)
