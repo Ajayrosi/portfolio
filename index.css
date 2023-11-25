@@ -439,6 +439,11 @@ legend{
         z-index: 1;
         
     }
+    .container2{
+        height: 250vh;
+        width: 100%;
+        
+    }
     .navbar{
         position: relative;
         padding: 10px;
@@ -543,7 +548,7 @@ legend{
         color: rgb(57, 60, 60);
     }
     .projects{
-        height: 115vh;
+        height: 130vh;
         width: 100%;
         display: grid;
         grid-template-columns: 1fr ;
@@ -775,6 +780,11 @@ legend{
         z-index: 1;
         
     }
+    .container2{
+        height: 250vh;
+        width: 100%;
+        
+    }
     .navbar{
         position: relative;
         padding: 10px;
@@ -879,11 +889,11 @@ legend{
         color: rgb(64, 67, 67);
     }
     .projects{
-        height: 115vh;
+        height: 130vh;
         width: 100%;
         display: grid;
         grid-template-columns: 1fr ;
-        grid-template-rows: 1fr .7fr 1fr .7fr 1fr .7fr;
+        grid-template-rows: 1fr .5fr 1fr .5fr 1fr .5fr;
         grid-template-areas: 
             "spo"
             "spo-1"
