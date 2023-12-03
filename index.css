@@ -4,6 +4,7 @@
     padding: 0;
     scroll-snap-type: none;
     user-select: none;
+    scroll-behavior: smooth;
 }
 .portfolio{
     
@@ -425,7 +426,25 @@ legend{
         transform: scale(1); 
     }
 } */
-
+.scroll{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    color: rgb(93, 88, 88);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: .1s ease-in;
+    box-shadow: 5px 5px 50px rgb(195, 191, 191);
+    border: 1px solid rgb(136, 124, 124);
+    transform: translate(500px,150px);
+}
+.scroll:hover{
+    background-color: #c5bbbb;
+    color: #000;
+}
 @media(min-width:377px) and (max-width:600px){
     .top-1{
         position: fixed;
@@ -766,6 +785,25 @@ legend{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .scroll{
+        height: 60px;
+        width: 60px;
+        background-color: white;
+        color: rgb(93, 88, 88);
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        transition: .1s ease-in;
+        box-shadow: 5px 5px 50px rgb(195, 191, 191);
+        border: 1px solid rgb(136, 124, 124);
+        transform: translate(280px,30px);
+    }
+    .scroll:hover{
+        background-color: #c5bbbb;
+        color: #000;
     }
 
 }
@@ -1114,7 +1152,26 @@ legend{
         justify-content: center;
         align-items: center;
     }
-
+    .scroll{
+        height: 60px;
+        width: 60px;
+        background-color: white;
+        color: rgb(93, 88, 88);
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        transition: .1s ease-in;
+        box-shadow: 5px 5px 50px rgb(195, 191, 191);
+        border: 1px solid rgb(136, 124, 124);
+        transform: translate(150px,10px);
+        position:fixed;
+    }
+    .scroll:hover{
+        background-color: #c5bbbb;
+        color: #000;
+    }
 
 }
 

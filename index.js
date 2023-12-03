@@ -22,5 +22,8 @@ for(let i=0;i<animation_elements.length;i++){
 }
 };
 
+const scrollUp = () =>{
+    window.scrollTo(0,0);
+}
 
 
