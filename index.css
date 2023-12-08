@@ -71,7 +71,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    background:linear-gradient(45deg,rgb(218, 245, 245) 20%,rgb(254, 235, 235)50%)
+    background-color: rgb(213, 204, 204);
 } 
 .wavy{
     height: 200px;
@@ -115,7 +115,7 @@
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 70px;
     letter-spacing: 1.5px;
-    z-index: 10;
+    z-index: 0;
     
 }
 .p{
@@ -137,7 +137,8 @@
 .container2{
     height: 250vh;
     width: 100%;
-    background: linear-gradient(30deg,rgb(212, 207, 207),rgba(227, 214, 214, 0.138));
+    background-color: rgb(213, 204, 204);
+    
 }
 .shower{
     height: 30vh;
@@ -148,7 +149,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px white solid;
+    
 }
 .con{
     height: 80%;
@@ -158,14 +159,14 @@
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color: rgb(18, 21, 21);
+    color: rgb(250, 255, 255);
 }
 .skillsets{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(45deg,rgb(218, 245, 245) 20%,rgb(254, 235, 235)50%)
+    background-color: rgb(213, 204, 204);
     
 }
 .skillcards{
@@ -277,7 +278,7 @@ legend{
         "spo-3 spo-2"
         "you youde"
     ;
-    background:linear-gradient(45deg,rgb(218, 245, 245) 20%,rgb(254, 235, 235)50%)
+    background-color: rgb(213, 204, 204);
 }
 .spotify{
     grid-area: spo;
@@ -426,11 +427,15 @@ legend{
         transform: scale(1); 
     }
 } */
+
 .scroll{
-    height: 60px;
-    width: 60px;
+    position: sticky;
+    top: 80%;
+    left: 95%;
+    height: 40px;
+    width: 40px;
     background-color: white;
-    color: rgb(93, 88, 88);
+    color: rgb(31, 30, 30);
     font-size: 25px;
     display: flex;
     justify-content: center;
@@ -439,16 +444,18 @@ legend{
     transition: .1s ease-in;
     box-shadow: 5px 5px 50px rgb(195, 191, 191);
     border: 1px solid rgb(136, 124, 124);
-    transform: translate(500px,150px);
+   z-index: 1000;
+   cursor:grabbing;
+   
 }
 .scroll:hover{
-    background-color: #c5bbbb;
-    color: #000;
+    background-color: rgb(31, 30, 30);
+    color: white;
 }
 @media(min-width:377px) and (max-width:600px){
     .top-1{
         position: fixed;
-        height: 10vh;
+        height: 6vh;
         width: 100%;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -787,10 +794,12 @@ legend{
         align-items: center;
     }
     .scroll{
-        height: 60px;
-        width: 60px;
-        background-color: white;
-        color: rgb(93, 88, 88);
+        position: sticky;
+        top: 80%;
+        left: 95%;
+        height: 70px;
+        width: 70px;
+        background-color: #c5bbbb;
         font-size: 25px;
         display: flex;
         justify-content: center;
@@ -799,18 +808,18 @@ legend{
         transition: .1s ease-in;
         box-shadow: 5px 5px 50px rgb(195, 191, 191);
         border: 1px solid rgb(136, 124, 124);
-        transform: translate(280px,30px);
+        
     }
     .scroll:hover{
-        background-color: #c5bbbb;
-        color: #000;
+        background-color: white;
+        
     }
 
 }
 @media  (min-width:100px) and (max-width:376px){
     .top-1{
         position: fixed;
-        height: 8vh;
+        height: 6vh;
         width: 100%;
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -1153,6 +1162,9 @@ legend{
         align-items: center;
     }
     .scroll{
+        position: sticky;
+        top: 40%;
+        left: 95%;
         height: 60px;
         width: 60px;
         background-color: white;
@@ -1165,8 +1177,8 @@ legend{
         transition: .1s ease-in;
         box-shadow: 5px 5px 50px rgb(195, 191, 191);
         border: 1px solid rgb(136, 124, 124);
-        transform: translate(150px,10px);
-        position:fixed;
+        
+       
     }
     .scroll:hover{
         background-color: #c5bbbb;
