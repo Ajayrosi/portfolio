@@ -923,8 +923,8 @@ legend{
         height: 25vh;
         width: 100%;
         background-image: url(./assets/zoho.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
