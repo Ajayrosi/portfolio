@@ -71,7 +71,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    background-color: rgb(213, 204, 204);
+    background-color: #f9f9f9;
 } 
 .wavy{
     height: 200px;
@@ -137,7 +137,7 @@
 .container2{
     height: 250vh;
     width: 100%;
-    background-color: rgb(213, 204, 204);
+    background-color: #f9f9f9;
     
 }
 .shower{
@@ -159,14 +159,14 @@
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color: rgb(250, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .skillsets{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(213, 204, 204);
+    background-color: #f9f9f9;
     
 }
 .skillcards{
@@ -278,7 +278,7 @@ legend{
         "spo-3 spo-2"
         "you youde"
     ;
-    background-color: rgb(213, 204, 204);
+    background-color: #f9f9f9;
 }
 .spotify{
     grid-area: spo;
@@ -320,8 +320,9 @@ legend{
     
 }
 .anchor{
+     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 30px;
     letter-spacing: 1.5px;
 }
@@ -571,7 +572,7 @@ legend{
         font-size: 20px;
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
-        color: rgb(57, 60, 60);
+        color: rgb(0, 0, 0);
     }
     .projects{
         height: 130vh;
@@ -630,6 +631,7 @@ legend{
         
     }
     .anchor{
+        font-family: 'Poppins', sans-serif;
         text-decoration: none;
         color: white;
         font-size: 20px;
@@ -796,10 +798,10 @@ legend{
     .scroll{
         position: sticky;
         top: 80%;
-        left: 95%;
-        height: 70px;
-        width: 70px;
-        background-color: #c5bbbb;
+        left: 90%;
+        height: 40px;
+        width: 40px;
+        background-color: #f9f9f9;
         font-size: 25px;
         display: flex;
         justify-content: center;
@@ -812,7 +814,7 @@ legend{
     }
     .scroll:hover{
         background-color: white;
-        
+        color: black;
     }
 
 }
@@ -887,7 +889,7 @@ legend{
         gap: 35px;
         justify-content: center;
         align-items: center;
-        background-color: white;
+        background-color: #f9f9f9;
     }   
     .wavy{
         height: 250px;
@@ -994,8 +996,9 @@ legend{
         
     }
     .anchor{
+        font-family: 'Poppins', sans-serif;
         text-decoration: none;
-        color: white;
+        color: rgb(0, 0, 0);
         font-size: 20px;
         letter-spacing: 1.5px;
     }
@@ -1165,8 +1168,8 @@ legend{
         position: sticky;
         top: 40%;
         left: 95%;
-        height: 60px;
-        width: 60px;
+        height: 40px;
+        width: 40px;
         background-color: white;
         color: rgb(93, 88, 88);
         font-size: 20px;
