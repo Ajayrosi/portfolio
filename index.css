@@ -202,6 +202,7 @@
 .skil{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
 }
 .cards{
@@ -373,7 +374,7 @@ a{
     filter: drop-shadow(2px 2px 13px rgb(126, 216, 255));
     transform: scale(1.2);
 }
-@media(min-width:377px) and (max-width:600px){
+@media (max-width:899px){
     .wrapper{
         padding: 20px 50px 50px 50px;
     }
@@ -390,12 +391,12 @@ a{
         gap: 10px;
     }
     .pro1{
-        height: 90vh;
+        height: 50vh;
         display: flex;
         flex-direction: column;
     }
     .pro2{
-        height: 90vh;
+        height: 50vh;
         display: flex;
         flex-direction: column;
     }
@@ -655,175 +656,119 @@ a{
     }
 
 }
-@media  (min-width:100px) and (max-width:376px){
-    .top-1{
-        position: fixed;
-        height: 6vh;
-        width: 100%;
-        backdrop-filter: blur(16px) saturate(180%);
-        -webkit-backdrop-filter: blur(16px) saturate(180%);
-        background-color: rgba(255, 255, 255, 0.75);
-        border-radius: 12px;
-        border: 1px solid rgba(209, 213, 219, 0.3);
-        z-index: 1;
-        
+
+@media (min-width:900px) and (max-width:1300px){
+    .wrapper{
+        padding: 20px 50px 50px 50px;
     }
-  
-    .navbar{
-        position: relative;
-        padding: 10px;
+    .skil{
         display: flex;
-        flex-direction: row;
-        
-        }
-    .empty{
-            flex: 2;
-        }
-    .logo{
-        flex: 1;
-    }
-    .profile{
-        height: 30px;
-        width: 30px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius: 50%;
-        flex:1;
-    }
-    .social{
-        height: 30px;
-        width: 80px;
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
-    
-    }
-    img{
-        height: 30px;
-        width: 30px;
-        border-radius: 50%;
-    }
-    
-    .animation_scroll{
-        opacity: 0;
-        bottom: -40px;
-        transition: all 1s ease-out;
-        transition-delay: .1s;
-    }
-    .animation{
-        opacity: 1;
-        bottom:0px;
-    }
-    .first-1{
-        height: 100vh;
-        width: 100vw;
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 35px;
+        flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
-        background-color: #f9f9f9;
-    }   
-    .wavy{
-        height: 250px;
-        width: 250px;
+        gap: 20px;
     }
-    .h1{
-        position: relative;
-        font-family: 'Yanone Kaffeesatz', sans-serif;
-        font-size: 40px;
-        letter-spacing: 1.5px;
-        
-    }
-    .p{
-        font-family: 'Raleway', sans-serif;
-        font-size: 10px;
-        
-    }   
-    
-    
-    .animation_on_scroll{
-        opacity: 0;
-        bottom: -80px;
-        transition: all 1s ease-out;
-        transition-delay: 0.2s;
-    }
-    .animate{
-        opacity: 1;
-        bottom: 0px;
-    }
-    
-    .footer{
-        height: 40vh;
-        width: 100%;
-        background-color: rgb(0, 0, 0);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .footpad{
-        height: 95%;
-        width: 92%;
-        
-    }
-    .anchors{
-        position: relative;
-        height: 85%;
-        width: 100%;
-        border-bottom: 1px rgb(135, 126, 126) solid;
-        
-        
-        
-    }
-    .anc-1{
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    .cards{
+        height: 200px;
+        width: 200px;
+        border-radius: 25px;
         gap: 10px;
     }
-    .anc-2{
-        display: none;
-        
+    .pro1{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
     }
-    .anc2-det{
-        display: none;
-        height: 60%;
-        width: 100%;
-        border-left: 1px rgb(86, 77, 77) solid;
+    .pro2{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
     }
-    .copyrights{
-        position: relative;
-        height: 15%;
+    .proimage{
+        height: 50%;
         width: 100%;
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
     }
-    .scroll{
-        position: sticky;
-        top: 40%;
-        left: 95%;
-        height: 40px;
-        width: 40px;
-        background-color: white;
-        color: rgb(93, 88, 88);
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        transition: .1s ease-in;
-        box-shadow: 5px 5px 50px rgb(195, 191, 191);
-        border: 1px solid rgb(136, 124, 124);
+    
+    .proim{
+       display: none;
+    }
+    .des{
+        width: 100%;
+        height: 50%;
+    }
+    .des > h1{
+        padding: 5px 5px 10px 10px;
+    }
+    .des > p{
+        font-size: 1.7rem;
+        padding: 5px 5px 10px 10px;
+    }
+    .des2p{
+        width: 100%;
+        height: 50%;
         
-       
     }
-    .scroll:hover{
-        background-color: #c5bbbb;
-        color: #000;
+    .des2p > h1{
+        padding: 5px 5px 10px 10px;
     }
-
+    .des2p > p{
+        font-size: 1.7rem;
+        padding: 5px 5px 10px 10px;
+    }
+    
+    .butoon{
+        padding: 10px 40px;
+        border-radius: 20px;
+        border: none;
+        color: rgb(102, 97, 97);
+        outline: none;
+        background-color: rgba(212, 226, 248, 0.5);
+        display: flex;
+        gap: 10px;
+        font-family: 'Jost', sans-serif;
+        cursor: pointer;
+        margin-left: 20px;
+        transition: all 0.2s ease;
+        
+    }
+    .butoon2{
+        margin-left: 20px;
+        padding: 10px 40px;
+        border-radius: 20px;
+        border: none;
+        color: rgb(102, 97, 97);
+        outline: none;
+        background-color: rgba(212, 226, 248, 0.5);
+        display: flex;
+        gap: 10px;
+        font-family: 'Jost', sans-serif;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        
+    }
+    .butoon:hover{
+        background-color: rgba(59,130,246,.5);
+        color: white;
+    }
+    .butoon2:hover{
+        background-color: rgba(59,130,246,.5);
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    
+    .proimde{
+        height: 400px;
+        width: 600px;
+        transform: translate(0,0);
+        border-radius: 8px;
+        border: 1px solid white;
+        filter: brightness(70%);
+        transition: all 0.3s ease;
+    }
 }
 
