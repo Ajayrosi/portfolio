@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,500;1,200;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fasthand&family=Montserrat&family=PT+Serif:ital@1&family=Playfair+Display&family=Poppins:ital,wght@1,200&family=Raleway:wght@200&family=Yanone+Kaffeesatz&display=swap');
 *{
     margin: 0;
@@ -71,7 +72,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    background-color: #f9f9f9;
+   
 } 
 .wavy{
     height: 200px;
@@ -134,216 +135,7 @@
     opacity: 1;
     bottom: 0px;
 }
-.container2{
-    height: 250vh;
-    width: 100%;
-    background-color: #f9f9f9;
-    
-}
-.shower{
-    height: 30vh;
-    width: 100%;
-    background-image: url(./assets/zoho.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.con{
-    height: 80%;
-    width: 80%;
-}
-#shower-h1{
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    color: rgb(0, 0, 0);
-}
-.skillsets{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f9f9f9;
-    
-}
-.skillcards{
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    transform: translateY(-30px);
-    
-}
-.crd{
-    height: 400px;
-    width: 300px;
-    border: 1px white solid;
-    border-radius: 10px;
-    background-color: rgb(255, 254, 254);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 1px 1px 10px rgb(252, 248, 248);
 
-}
-.card :hover{
-    transform: translateZ(45px);
-}
-.crd-padd{
-    position: relative;
-    height: 95%;
-    width: 93%;
-    border: 0.5px rgb(222, 216, 216) solid;
-    border-radius: 6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.lister{
-    position: relative;
-    height: 90%;
-    width: 60%;
-}
-ul{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-li:nth-child(1){
-    padding: 10px;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    border: 0.4px rgb(214, 208, 208) solid;
-}
-li:nth-child(2){
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(46, 42, 42);
-    border-radius: 4px;
-    
-    border: 0.4px rgb(214, 208, 208) solid;
-}
-li:nth-child(3){
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(46, 42, 42);
-    border-radius: 4px;
-   
-    border: 0.4px rgb(214, 208, 208) solid;
-}
-li:nth-child(4){
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(46, 42, 42);
-    border-radius: 4px;
-    
-    border: 0.4px rgb(214, 208, 208) solid;
-}
-li:nth-child(5){
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(46, 42, 42);
-    border-radius: 4px;
-    border: 0.4px rgb(214, 208, 208) solid;
-}
-li:nth-child(6){
-    padding: 10px;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(46, 42, 42);
-    border: 0.4px rgb(214, 208, 208) solid;
-}
-li:hover{
-    background-color: aliceblue;
-    
-}
-legend{
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    margin-left: 10px;
-    letter-spacing: 1.5px;
-}
-.projects{
-    height: 172.5vh;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-        "spo spo-1"
-        "spo-3 spo-2"
-        "you youde"
-    ;
-    background-color: #f9f9f9;
-}
-.spotify{
-    grid-area: spo;
-     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#gif{
-    position: relative;
-    height: 80%;
-    width: 90%;
-    box-shadow: 1px 2px 10px white;
-    border-radius: 12px;
-}
-.spo-des{
-    grid-area: spo-1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.youtube{
-    grid-area: you;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.youdes{
-    grid-area: youde;
-     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.description{
-    height: 60%;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    
-}
-.anchor{
-     font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    letter-spacing: 1.5px;
-}
-.des-pa{
-    font-size: 18px;
-    letter-spacing: 1.5px;
-}
-.nextpro{
-    grid-area: spo-2;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.nextdes{
-    grid-area: spo-3;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .footer{
     height: 40vh;
     width: 100%;
@@ -392,42 +184,162 @@ legend{
     justify-content: center;
     align-items: center;
 }
-/*.loader{
-    height: 30%;
-    width: 30%;
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container > h1{
+    align-self: center;
+    padding: 20px 1px;
+    font-weight: 200;
+}
+.name{
+    color: rgba(59,130,246,.5);
+}
+.wrapper{
+    padding: 20px 100px 100px 100px;
+}
+.skil{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.cards{
+    height: 180px;
+    width: 180px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #9d9696;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    border: 1px solid rgb(178, 235, 255);
+}
+.cards > p{
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+}
+
+.cards:hover{
+    background-color:rgba(59,130,246,.5) ;
+    box-shadow: 5px 5px 10px rgba(59,130,246,.5) ;
+}
+.cards > img{
+    height: 60px;
+    width: 60px;
+    border-radius: 7px;
+
+}
+.prowrapper > div{
+    
+    font-family: 'Jost', sans-serif;
+}
+.pro1{
+
+    height: 70vh;
+    width: 100%;
+    display: flex;
+   
+    align-items: center;
+    
+}
+.pro2{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.proimage{
+    width: 50%;
+    display: flex;
+    
+}
+
+.proim{
+    height: 400px;
+    width: 600px;
+    transform: translateX(10px);
+}
+.des{
+    width: 50%;
+    height: 100%;
+}
+.des > h1{
+    padding: 50px 50px 0 0;
+}
+.des > p{
+    padding: 20px 50px 20px 0;
+}
+.des2p{
+    width: 50%;
+    height: 100%;
+    
+}
+.des2p > h1{
+    padding: 50px 50px 0 20px;
+}
+.des2p > p{
+    padding: 20px 50px 20px 20px;
+}
+
+.butoon{
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(102, 97, 97);
+    outline: none;
+    background-color: rgba(212, 226, 248, 0.5);
     display: flex;
     gap: 10px;
+    font-family: 'Jost', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
 }
-.load-el{
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    background: linear-gradient(45deg,rgb(253, 253, 253),rgb(240, 254, 255));
-    animation: blink 1s linear infinite;
+.butoon2{
+    margin-left: 20px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(102, 97, 97);
+    outline: none;
+    background-color: rgba(212, 226, 248, 0.5);
+    display: flex;
+    gap: 10px;
+    font-family: 'Jost', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
 }
-.load-el:nth-child(1){
-    animation-delay: 1s;
+.butoon:hover{
+    background-color: rgba(59,130,246,.5);
+    color: white;
 }
-.load-el:nth-child(2){
-    animation-delay: .7s;
+.butoon2:hover{
+    background-color: rgba(59,130,246,.5);
+    color: white;
 }
-.load-el:nth-child(3){
-    animation-delay: .5s;
+a{
+    text-decoration: none;
+    
 }
-.load-el:nth-child(4){
-    animation-delay: .3s;
+
+.proimde{
+    height: 400px;
+    width: 600px;
+    transform: translate(-550px,-30px);
+    border-radius: 20px;
+    border: 1px solid white;
+    filter: brightness(70%);
+    transition: all 0.3s ease;
 }
-@keyframes blink{
-    0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(0); 
-    }
-    100%{
-        transform: scale(1); 
-    }
-} */
+.proimde:hover{
+    filter:brightness(100%);
+}
 
 .scroll{
     position: sticky;
@@ -447,13 +359,133 @@ legend{
     border: 1px solid rgb(136, 124, 124);
    z-index: 1000;
    cursor:grabbing;
+
    
 }
 .scroll:hover{
     background-color: rgb(31, 30, 30);
     color: white;
 }
+#imager{
+    transition: transform .2s ease-in;
+}
+#imager:hover{
+    filter: drop-shadow(2px 2px 13px rgb(126, 216, 255));
+    transform: scale(1.2);
+}
 @media(min-width:377px) and (max-width:600px){
+    .wrapper{
+        padding: 20px 50px 50px 50px;
+    }
+    .skil{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .cards{
+        height: 100px;
+        width: 100px;
+        border-radius: 25px;
+        gap: 10px;
+    }
+    .pro1{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .pro2{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .proimage{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .proim{
+       display: none;
+    }
+    .des{
+        width: 100%;
+        height: 50%;
+    }
+    .des > h1{
+        padding: 5px 5px 10px 10px;
+    }
+    .des > p{
+        font-size: .8rem;
+        padding: 5px 5px 10px 10px;
+    }
+    .des2p{
+        width: 100%;
+        height: 50%;
+        
+    }
+    .des2p > h1{
+        padding: 5px 5px 10px 10px;
+    }
+    .des2p > p{
+        font-size: .8rem;
+        padding: 5px 5px 10px 10px;
+    }
+    
+    .butoon{
+        padding: 10px 40px;
+        border-radius: 20px;
+        border: none;
+        color: rgb(102, 97, 97);
+        outline: none;
+        background-color: rgba(212, 226, 248, 0.5);
+        display: flex;
+        gap: 10px;
+        font-family: 'Jost', sans-serif;
+        cursor: pointer;
+        margin-left: 20px;
+        transition: all 0.2s ease;
+        
+    }
+    .butoon2{
+        margin-left: 20px;
+        padding: 10px 40px;
+        border-radius: 20px;
+        border: none;
+        color: rgb(102, 97, 97);
+        outline: none;
+        background-color: rgba(212, 226, 248, 0.5);
+        display: flex;
+        gap: 10px;
+        font-family: 'Jost', sans-serif;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        
+    }
+    .butoon:hover{
+        background-color: rgba(59,130,246,.5);
+        color: white;
+    }
+    .butoon2:hover{
+        background-color: rgba(59,130,246,.5);
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    
+    .proimde{
+        height: 200px;
+        width: 90%;
+        transform: translate(0,0);
+        border-radius: 8px;
+        border: 1px solid white;
+        filter: brightness(70%);
+        transition: all 0.3s ease;
+    }
     .top-1{
         position: fixed;
         height: 6vh;
@@ -554,202 +586,7 @@ legend{
         opacity: 1;
         bottom: 0px;
     }
-    .shower{
-        height: 30vh;
-        width: 100%;
-        background-image: url(./assets/zoho.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .con{
-        height: 80%;
-        width: 80%;
-    }
-    #shower-h1{
-        font-size: 20px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        color: rgb(0, 0, 0);
-    }
-    .projects{
-        height: 130vh;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr ;
-        grid-template-rows: 1fr .7fr 1fr .7fr 1fr .7fr;
-        grid-template-areas: 
-            "spo"
-            "spo-1"
-            "spo-2"
-            "spo-3"
-            "you"
-            'youde'
-        ;
-        overflow-y: scroll;
-    }
-    .youtube{
-        grid-area: you;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .youdes{
-        grid-area: youde;
-         display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .spotify{
-        grid-area: spo;
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #gif{
-        position: relative;
-        height: 80%;
-        width: 90%;
-        box-shadow: 1px 2px 10px white;
-    }
-    .spo-des{
-        grid-area: spo-1;
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .description{
-        height: 85%;
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        gap: 7px;
-        
-    }
-    .anchor{
-        font-family: 'Poppins', sans-serif;
-        text-decoration: none;
-        color: white;
-        font-size: 20px;
-        letter-spacing: 1.5px;
-    }
-    .des-pa{
-        font-size: 15px;
-        letter-spacing: 1px;
-    }
-    .nextpro{
-        grid-area: spo-2;
-       
-    }
-    .nextdes{
-        grid-area: spo-3;
-     
-    }
-    .skillsets{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .skillcards{
-        height: 700px;
-        width: 70%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        transform: translateY(-30px);
-        
-    }
-    .crd{
-        height: 50%;
-        width: 100%;
-        border: 1px white solid;
-        border-radius: 10px;
-        background-color: rgb(255, 254, 254);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 1px 1px 10px rgb(252, 248, 248);
     
-    }
-    .lister{
-        position: relative;
-        height: 90%;
-        width: 80%;
-    }
-    ul{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        width: 80%;
-    }
-    li:nth-child(1){
-        padding: 7px;
-        border-radius: 4px;
-        background-color: rgb(255, 255, 255);
-        border: 0.4px rgb(214, 208, 208) solid;
-    }
-    li:nth-child(2){
-        padding: 7px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(46, 42, 42);
-        border-radius: 4px;
-        
-        border: 0.4px rgb(214, 208, 208) solid;
-    }
-    li:nth-child(3){
-        padding: 7px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(46, 42, 42);
-        border-radius: 4px;
-       
-        border: 0.4px rgb(214, 208, 208) solid;
-    }
-    li:nth-child(4){
-        padding: 7px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(46, 42, 42);
-        border-radius: 4px;
-        
-        border: 0.4px rgb(214, 208, 208) solid;
-    }
-    li:nth-child(5){
-        padding: 7px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(46, 42, 42);
-        border-radius: 4px;
-        border: 0.4px rgb(214, 208, 208) solid;
-    }
-    li:nth-child(6){
-        padding: 7px;
-        border-radius: 4px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(46, 42, 42);
-        border: 0.4px rgb(214, 208, 208) solid;
-    }
-    li:hover{
-        background-color: aliceblue;
-        
-    }
-    legend{
-        font-size: 1rem;
-        font-family: 'Poppins', sans-serif;
-        margin-left: 10px;
-        letter-spacing: 1px;
-    }
-    .crd-padd{
-        position: relative;
-        height: 90%;
-        width: 80%;
-        
-    }
     .footer{
         height: 30vh;
         width: 100%;
@@ -831,11 +668,7 @@ legend{
         z-index: 1;
         
     }
-    .container2{
-        height: 250vh;
-        width: 100%;
-        
-    }
+  
     .navbar{
         position: relative;
         padding: 10px;
@@ -919,203 +752,7 @@ legend{
         opacity: 1;
         bottom: 0px;
     }
-    .shower{
-        height: 25vh;
-        width: 100%;
-        background-image: url(./assets/zoho.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .con{
-        height: 80%;
-        width: 80%;
-    }
-    #shower-h1{
-        font-size: 18px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 300;
-        color: rgb(64, 67, 67);
-    }
-    .projects{
-        height: 125vh;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr ;
-        grid-template-rows: 1fr .5fr 1fr .5fr 1fr .5fr;
-        grid-template-areas: 
-            "spo"
-            "spo-1"
-            "spo-2"
-            "spo-3"
-            "you"
-            'youde'
-        ;
-        overflow-y: scroll;
-    }
-    .youtube{
-        grid-area: you;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .youdes{
-        grid-area: youde;
-         display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .spotify{
-        grid-area: spo;
-      
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #gif{
-        position: relative;
-        height: 80%;
-        width: 90%;
-        box-shadow: 1px 2px 10px white;
-    }
-    .spo-des{
-        grid-area: spo-1;
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .description{
-        height: 85%;
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        gap: 7px;
-        
-    }
-    .anchor{
-        font-family: 'Poppins', sans-serif;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        font-size: 20px;
-        letter-spacing: 1.5px;
-    }
-    .des-pa{
-        font-size: 12px;
-        letter-spacing: 1px;
-    }
-    .nextpro{
-        grid-area: spo-2;
-       
-    }
-    .nextdes{
-        grid-area: spo-3;
-      
-    }
-    .skillsets{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .skillcards{
-        height:60vh;
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        transform: translateY(-30px);
-    }
-    .crd{
-        height: 50%;
-        width: 80%;
-        border: 1px white solid;
-        border-radius: 10px;
-        background-color: rgb(255, 254, 254);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 1px 1px 10px rgb(252, 248, 248);
     
-    }
-    .lister{
-        position: relative;
-        height: 90%;
-        width: 80%;
-        overflow-y: scroll;
-    }
-    ul{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        width: 80%;
-    }
-    li:nth-child(1){
-        
-        padding: 7px;
-        border-radius: 4px;
-        background-color: rgb(255, 255, 255);
-        border: 0.4px rgb(214, 208, 208) solid;
-    }
-    li:nth-child(2){
-        padding: 7px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(46, 42, 42);
-        border-radius: 4px;
-        
-        border: 0.4px rgb(214, 208, 208) solid;
-    }
-    li:nth-child(3){
-        padding: 7px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(46, 42, 42);
-        border-radius: 4px;
-       
-        border: 0.4px rgb(214, 208, 208) solid;
-    }
-    li:nth-child(4){
-        padding: 7px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(46, 42, 42);
-        border-radius: 4px;
-        
-        border: 0.4px rgb(214, 208, 208) solid;
-    }
-    li:nth-child(5){
-        padding: 7px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(46, 42, 42);
-        border-radius: 4px;
-        border: 0.4px rgb(214, 208, 208) solid;
-    }
-    li:nth-child(6){
-        padding: 7px;
-        border-radius: 4px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(46, 42, 42);
-        border: 0.4px rgb(214, 208, 208) solid;
-    }
-    li:hover{
-        background-color: aliceblue;
-        
-    }
-    legend{
-        font-size: 1rem;
-        font-family: 'Poppins', sans-serif;
-        margin-left: 10px;
-        letter-spacing: 1px;
-    }
-    .crd-padd{
-        position: relative;
-        height: 90%;
-        width: 80%;
-        
-    }
     .footer{
         height: 40vh;
         width: 100%;
