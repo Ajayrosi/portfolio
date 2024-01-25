@@ -25,5 +25,12 @@ for(let i=0;i<animation_elements.length;i++){
 const scrollUp = () =>{
     window.scrollTo(0,0);
 }
-
+const pScroll = () =>{
+    window.scrollTo(0,1200)
+   
+}
+const tScroll = () =>{
+    window.scrollTo(0,700)
+    
+}
 

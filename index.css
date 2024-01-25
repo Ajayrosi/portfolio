@@ -6,14 +6,36 @@
     scroll-snap-type: none;
     user-select: none;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 .portfolio{
     
 }
+label{
+    padding: 2px 20px;
+    font-weight: 800;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5rem;
+    color:  rgba(21, 110, 255, 0.8);
+}
+ul{
+    display: flex;
+    gap: 10px;
+
+}
+li{
+    list-style: none;
+    padding: 5px 30px;
+    font-family: 'Jost', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+
 .top-1{
     position: fixed;
     padding: 10px;
-    height: 8vh;
+    height: 10vh;
     width: 100%;
     backdrop-filter: blur(20px) ;
     -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -28,6 +50,8 @@
     padding: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
     }
 .empty{
         flex: 2;
