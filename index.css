@@ -412,6 +412,21 @@ a{
     transform: scale(1.2);
 }
 @media (max-width:899px){
+    .prowrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .cards > img{
+        height: 40px;
+        width: 40px;
+        border-radius: 7px;
+    
+    }
+    .cards > p{
+        font-weight: 200;
+        font-size: .5rem;
+    }
     .wrapper{
         padding: 20px 50px 50px 50px;
     }
@@ -725,6 +740,7 @@ a{
         background-color: white;
         color: black;
     }
+    
 
 }
 
