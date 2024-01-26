@@ -524,16 +524,50 @@ a{
         filter: brightness(70%);
         transition: all 0.3s ease;
     }
-    .top-1{
-        position: fixed;
-        height: 6vh;
+    label{
+        padding: 2px 15px;
+        font-weight: 800;
+        font-family: 'Jost', sans-serif;
+        font-size: 1.5rem;
+        color:  rgba(21, 110, 255, 0.8);
+    }
+    ul{
+        display: flex;
+        gap: 10px;
+    
+    }
+    li{
+        list-style: none;
+        padding: 5px 10px;
+        font-family: 'Jost', sans-serif;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        
+    }
+    #arrow{
+        border-left: 1px solid rgb(23, 22, 22,0.4);
+       
+        
+    }
+    .toppad{
+        position: sticky;
+        top: 4px;
+        height: 130px;
         width: 100%;
-        backdrop-filter: blur(16px) saturate(180%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+    .top-1{
+        padding: 10px;
+        height: 60%;
+        width: 95%;
+        backdrop-filter: blur(20px) ;
         -webkit-backdrop-filter: blur(16px) saturate(180%);
         background-color: rgba(255, 255, 255, 0.75);
         border-radius: 12px;
-        border: 1px solid rgba(209, 213, 219, 0.3);
-        z-index: 1;
+        border: 1px solid rgba(106, 108, 110, 0.3);
         
     }
     .container2{
