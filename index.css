@@ -229,10 +229,14 @@ li{
     align-self: center;
     padding: 20px 1px;
     font-weight: 200;
+    font-family: 'Raleway', sansf-seri;
 }
-.name{
-    color: rgba(59,130,246,.5);
-}
+/* .name{
+    background-image: url(./assets/earth.gif);
+    color: transparent;
+    background-size: contain;
+    background-clip: text;
+} */
 .wrapper{
     padding: 20px 100px 100px 100px;
 }
@@ -272,113 +276,7 @@ li{
     border-radius: 7px;
 
 }
-.prowrapper > div{
-    
-    font-family: 'Jost', sans-serif;
-}
-.pro1{
 
-    height: 70vh;
-    width: 100%;
-    display: flex;
-   
-    align-items: center;
-    
-}
-.pro2{
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.proimage{
-    width: 50%;
-    display: flex;
-    
-}
-
-.proim{
-    height: 400px;
-    width: 600px;
-    transform: translateX(10px);
-}
-.des{
-    width: 50%;
-    height: 100%;
-}
-.des > h1{
-    padding: 50px 50px 0 0;
-}
-.des > p{
-    padding: 20px 50px 20px 0;
-}
-.des2p{
-    width: 50%;
-    height: 100%;
-    
-}
-.des2p > h1{
-    padding: 50px 50px 0 20px;
-}
-.des2p > p{
-    padding: 20px 50px 20px 20px;
-}
-
-.butoon{
-    padding: 10px 40px;
-    border-radius: 20px;
-    border: none;
-    color: rgb(102, 97, 97);
-    outline: none;
-    background-color: rgba(212, 226, 248, 0.5);
-    display: flex;
-    gap: 10px;
-    font-family: 'Jost', sans-serif;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    
-}
-.butoon2{
-    margin-left: 20px;
-    padding: 10px 40px;
-    border-radius: 20px;
-    border: none;
-    color: rgb(102, 97, 97);
-    outline: none;
-    background-color: rgba(212, 226, 248, 0.5);
-    display: flex;
-    gap: 10px;
-    font-family: 'Jost', sans-serif;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    
-}
-.butoon:hover{
-    background-color: rgba(59,130,246,.5);
-    color: white;
-}
-.butoon2:hover{
-    background-color: rgba(59,130,246,.5);
-    color: white;
-}
-a{
-    text-decoration: none;
-    
-}
-
-.proimde{
-    height: 400px;
-    width: 600px;
-    transform: translate(-550px,-30px);
-    border-radius: 20px;
-    border: 1px solid white;
-    filter: brightness(70%);
-    transition: all 0.3s ease;
-}
-.proimde:hover{
-    filter:brightness(100%);
-}
 
 .scroll{
     position: sticky;
@@ -411,6 +309,125 @@ a{
 #imager:hover{
     filter: drop-shadow(2px 2px 13px rgb(126, 216, 255));
     transform: scale(1.2);
+}
+.sec-1{
+    display: flex;
+    flex-direction:column ;
+    gap: 10px;
+}
+/* work */
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.workpad{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 80%;
+}
+#h1{
+    display: flex;
+    justify-content: center;
+}
+#h1 > h1{
+    font-weight: 500;
+    font-family: 'Raleway', sansf-seri;
+}
+#p{
+    display: flex;
+    justify-content: center;
+}
+.ppad{
+    width: 60%;
+}
+.ppad > p{
+    font: 300;
+    font-size: 1.3rem;
+    color: rgb(144, 134, 134);
+}
+.workcard{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0 0 30px 0;
+}
+.wrcrd1{
+    height: 500px;
+    width: 400px ;
+    background-color: rgb(255, 255, 255);
+    padding: 6px;
+    border-radius: 6px;
+}
+.wrkcrdpad > img{
+   height: 30%;
+   width: 100%;
+   border-radius: 20px;
+}
+.wrkcrdpad{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+}
+.wrkcrdpad > p{
+    color: rgb(144, 134, 134);
+}
+.wrkcrdpad > h4{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-family: 'poppins', sans-serif;
+}
+.techstk{
+ display: flex;
+ gap: 15px;
+}
+.techstk > p{
+    display: block;
+    font-weight: 400;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px ;
+    background-color: #dad8d8;
+}
+.wrbut{
+    display: flex;
+    justify-content: space-between;
+}
+.wrbut > a{
+    text-decoration: none;
+}
+.wrbut >a:nth-child(1) > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Jost', sans-serif;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.wrbut > a:nth-child(2) > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Jost', sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(212, 202, 202);
+}
+.res{
+   padding: 10px 40px 10px 40px;
+   border-radius: 6px;
+   border: none;
+   outline: none;
+   cursor: pointer;
 }
 @media (max-width:899px){
     .container >h1{
@@ -447,103 +464,7 @@ a{
         border-radius: 25px;
         gap: 10px;
     }
-    .pro1{
-        height: 52vh;
-        display: flex;
-        flex-direction: column;
-    }
-    .pro2{
-        height: 52vh;
-        display: flex;
-        flex-direction: column;
-    }
-    .proimage{
-        height: 40%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     
-    .proim{
-       display: none;
-    }
-    .des{
-        width: 100%;
-        height: 60%;
-    }
-    .des > h1{
-        padding: 5px 5px 10px 10px;
-    }
-    .des > p{
-        font-size: .8rem;
-        padding: 5px 5px 10px 10px;
-    }
-    .des2p{
-        width: 100%;
-        height: 50%;
-        
-    }
-    .des2p > h1{
-        padding: 5px 5px 10px 10px;
-    }
-    .des2p > p{
-        font-size: .8rem;
-        padding: 5px 5px 10px 10px;
-    }
-    
-    .butoon{
-        padding: 10px 40px;
-        border-radius: 20px;
-        border: none;
-        color: rgb(102, 97, 97);
-        outline: none;
-        background-color: rgba(212, 226, 248, 0.5);
-        display: flex;
-        gap: 10px;
-        font-family: 'Jost', sans-serif;
-        cursor: pointer;
-        margin-left: 20px;
-        transition: all 0.2s ease;
-        
-    }
-    .butoon2{
-        margin-left: 20px;
-        padding: 10px 40px;
-        border-radius: 20px;
-        border: none;
-        color: rgb(102, 97, 97);
-        outline: none;
-        background-color: rgba(212, 226, 248, 0.5);
-        display: flex;
-        gap: 10px;
-        font-family: 'Jost', sans-serif;
-        cursor: pointer;
-        transition: all 0.2s ease;
-        
-    }
-    .butoon:hover{
-        background-color: rgba(59,130,246,.5);
-        color: white;
-    }
-    .butoon2:hover{
-        background-color: rgba(59,130,246,.5);
-        color: white;
-    }
-    a{
-        text-decoration: none;
-        
-    }
-    
-    .proimde{
-        height: 80%;
-        width: 90%;
-        transform: translate(0,0);
-        border-radius: 8px;
-        border: 1px solid white;
-        filter: brightness(70%);
-        transition: all 0.3s ease;
-    }
     label{
         padding: 2px 15px;
         font-weight: 800;
@@ -765,102 +686,6 @@ a{
         border-radius: 25px;
         gap: 10px;
     }
-    .pro1{
-        height: 60vh;
-        display: flex;
-        flex-direction: column;
-    }
-    .pro2{
-        height: 60vh;
-        display: flex;
-        flex-direction: column;
-    }
-    .proimage{
-        height: 50%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     
-    .proim{
-       display: none;
-    }
-    .des{
-        width: 100%;
-        height: 50%;
-    }
-    .des > h1{
-        padding: 5px 5px 10px 10px;
-    }
-    .des > p{
-        font-size: 1.7rem;
-        padding: 5px 5px 10px 10px;
-    }
-    .des2p{
-        width: 100%;
-        height: 50%;
-        
-    }
-    .des2p > h1{
-        padding: 5px 5px 10px 10px;
-    }
-    .des2p > p{
-        font-size: 1.7rem;
-        padding: 5px 5px 10px 10px;
-    }
-    
-    .butoon{
-        padding: 10px 40px;
-        border-radius: 20px;
-        border: none;
-        color: rgb(102, 97, 97);
-        outline: none;
-        background-color: rgba(212, 226, 248, 0.5);
-        display: flex;
-        gap: 10px;
-        font-family: 'Jost', sans-serif;
-        cursor: pointer;
-        margin-left: 20px;
-        transition: all 0.2s ease;
-        
-    }
-    .butoon2{
-        margin-left: 20px;
-        padding: 10px 40px;
-        border-radius: 20px;
-        border: none;
-        color: rgb(102, 97, 97);
-        outline: none;
-        background-color: rgba(212, 226, 248, 0.5);
-        display: flex;
-        gap: 10px;
-        font-family: 'Jost', sans-serif;
-        cursor: pointer;
-        transition: all 0.2s ease;
-        
-    }
-    .butoon:hover{
-        background-color: rgba(59,130,246,.5);
-        color: white;
-    }
-    .butoon2:hover{
-        background-color: rgba(59,130,246,.5);
-        color: white;
-    }
-    a{
-        text-decoration: none;
-        
-    }
-    
-    .proimde{
-        height: 400px;
-        width: 600px;
-        transform: translate(0,0);
-        border-radius: 8px;
-        border: 1px solid white;
-        filter: brightness(70%);
-        transition: all 0.3s ease;
-    }
 }
 
