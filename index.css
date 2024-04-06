@@ -52,7 +52,7 @@ li{
     width: 95%;
     backdrop-filter: blur(20px) ;
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgb(0, 237, 100,0.75);
+    background-color: #F1F1F1;
     border-radius: 12px;
     border: 1px solid rgba(106, 108, 110, 0.3);
     
@@ -176,7 +176,7 @@ li{
 .footer{
     height: 40vh;
     width: 100%;
-    background-color: #023430;
+    background-color: #E1DFEA;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,7 +190,7 @@ li{
     position: relative;
     height: 85%;
     width: 100%;
-    border-bottom: 1px rgb(135, 126, 126) solid;
+    border-bottom: 1px rgb(255, 255, 255) solid;
     display: flex;
     gap: 20px;
     
@@ -211,7 +211,7 @@ li{
 .anc2-det{
     height: 60%;
     width: 100%;
-    border-left: 1px rgb(86, 77, 77) solid;
+    border-left: 1px rgb(255, 255, 255) solid;
 }
 .copyrights{
     position: relative;
